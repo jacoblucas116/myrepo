@@ -1,0 +1,19 @@
+---
+title: "Joins"
+author: "Jacob Lucas"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+```{r}
+df1 <- tibble(name = c("Bill", "Tom", "Steve"),
+              score = c(3, 9, 7))
+```
+
