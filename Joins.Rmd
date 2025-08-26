@@ -15,5 +15,8 @@ library(tidyverse)
 ```{r}
 df1 <- tibble(name = c("Bill", "Tom", "Steve"),
               score = c(3, 9, 7))
+
+df2 <- tibble(name = c("Bill", "Sandra", "Corey", "Tom", "Steve"),
+              score = c(3, 3, 4, 9, 7))
 ```
 
